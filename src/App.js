@@ -31,7 +31,7 @@ function App(props) {
        
        <div className="container my-3"> 
        <Routes>
-       <Route exact path="/textutils" element={<TextForm heading="Enter the text to analyze below" mode={mode}/>}/>
+       <Route exact path="textutils" element={<TextForm heading="Enter the text to analyze below" mode={mode}/>}/>
        
        <Route exact path="about" element={<About mode={mode}/>}/>
        </Routes>
